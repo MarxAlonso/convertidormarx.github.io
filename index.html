@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de peso Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logomarx.JPG">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <p>Introduzca un valor en gramos</p>
+        <input type="text" id="grams"><br><span id="error"></span>
+
+        <p>
+            Convertir a
+            <select id="type">
+                <option value="Pounds">Libras</option>
+                <option value="Kilograms">kilogramos</option>
+                <option value="Ounces">Onzas</option>
+                <option value="Stones">Stones</option>
+            </select>
+        </p>
+
+        <button id="btn">Convertir</button>
+        <p id="output"></p>
+    </div>
+</body>
+</html>
